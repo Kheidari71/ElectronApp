@@ -25,7 +25,7 @@ app.on("ready", () => {
 
   if (isDev) mainWindow.loadURL("http://localhost:5173");
   else mainWindow.loadFile(path.join(__dirname, "dist/index.html"));
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   // مدیریت پیام‌های کنترلی
   ipcMain.on("minimize-window", () => {

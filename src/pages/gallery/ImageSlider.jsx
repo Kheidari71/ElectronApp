@@ -13,6 +13,12 @@ const ImageSlider = () => {
   const {imageGroup}= useGalleryContex()
   const {isChecked} = useCheckboxContext();
 
+  // const images = {
+  //   Nature: [`${import.meta.env.BASE_URL}Nature2.webp`, `${import.meta.env.BASE_URL}nature3.webp`],
+  //   House: [`${import.meta.env.BASE_URL}house1.jpeg`, `${import.meta.env.BASE_URL}house2.webp`, `${import.meta.env.BASE_URL}house3.jpeg`, `${import.meta.env.BASE_URL}house4.jpeg`],
+  //   Sky: [`${import.meta.env.BASE_URL}sky1-.jpeg`, `${import.meta.env.BASE_URL}sky2.jpeg`],
+  // };
+  
   const images = {
     Nature :[
     "/Nature2.webp",
