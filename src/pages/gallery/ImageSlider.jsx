@@ -15,19 +15,19 @@ const ImageSlider = () => {
 
   const images = {
     Nature :[
-    "public/nature2.webp",
-    "public/nature3.webp",
+    "/nature2.webp",
+    "/nature3.webp",
   
   ], 
   House :[
-    "public/house1.jpeg",
-    "public/house2.webp",
-    "public/house3.jpeg",
-"public/house4.jpeg"
+    "/house1.jpeg",
+    "/house2.webp",
+    "/house3.jpeg",
+"/house4.jpeg"
   ], 
   Sky :[
-    "public/sky1-.jpeg",
-    "public/sky2.jpeg",
+    "/sky1-.jpeg",
+    "/sky2.jpeg",
     
   ], 
 }
