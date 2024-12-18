@@ -15,7 +15,7 @@ const ImageSlider = () => {
 
   const images = {
     Nature :[
-    "/nature2.webp",
+    "/Nature2.webp",
     "/nature3.webp",
   
   ], 
